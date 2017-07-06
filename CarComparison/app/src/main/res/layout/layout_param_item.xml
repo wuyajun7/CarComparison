@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/param_item_content"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/param_item_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="头部标题" />
+
+    <ImageView
+        android:id="@+id/param_item_del"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="right"
+        android:src="@mipmap/ic_remove" />
+</FrameLayout>
