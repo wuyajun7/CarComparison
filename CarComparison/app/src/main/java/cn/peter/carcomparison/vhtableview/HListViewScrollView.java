@@ -50,6 +50,6 @@ public class HListViewScrollView extends HorizontalScrollView {
 
         HListViewScrollView getCurrentTouchView();
 
-        void onUIScrollChanged(int l, int t, int oldl, int oldt);
+        void onUIScrollChanged(int l, int t, int old_l, int old_t);
     }
 }
