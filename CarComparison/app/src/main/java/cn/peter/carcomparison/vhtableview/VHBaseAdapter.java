@@ -4,9 +4,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-/**
- * Created by jian on 2016/7/20.
- */
 public interface VHBaseAdapter {
 
     // 表格内容的行数，不包括标题行
@@ -25,7 +22,7 @@ public interface VHBaseAdapter {
     // 每一行的标题
     View getTableSectionView(int contentRow, View view);
 
-    // footerview
+    // footerView
     View getFooterView(ListView view);
 
     Object getItem(int contentRow);

@@ -16,10 +16,6 @@ import java.util.ArrayList;
 import cn.peter.carcomparison.R;
 import cn.peter.carcomparison.bean.ComparisonCarItem;
 
-/**
- * Created by peter on 2017/7/6.
- * explain:
- */
 public class VHTableAdapter implements VHBaseAdapter {
     public final String PARAM_TIP_TXT = "●标配 ○选配 -无";
 

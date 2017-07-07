@@ -1,12 +1,5 @@
-/*
- * mail:1065680448@qq.com
- */
 package cn.peter.carcomparison.bean;
 
-/**
- * @Author FangJW
- * @Date 12/4/16
- */
 public class ComparisonCarItem {
     private String name;
     private String id;
